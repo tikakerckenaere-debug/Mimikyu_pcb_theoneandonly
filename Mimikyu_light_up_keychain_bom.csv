@@ -1,6 +1,43 @@
-Designator,Footprint,Quantity,Value,LCSC Part #,LCSC Link,Gotron Gent Link
-BT1,BatteryHolder_Keystone_3034_1x20mm,1,CR2032 Battery Holder,C5199422,https://www.lcsc.com/search?q=C5199422,
-"D1, D2",LED_D5.0mm,2,5mm Yellow LED (591nm),C330770,https://www.lcsc.com/search?q=C330770,https://www.gotron.be/componenten/rond-platte-led-5mm-geel-diffuus.html
-"R1, R2",R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,2,220Ω 1% 0.25W,C3537012,https://www.lcsc.com/search?q=C3537012,https://www.gotron.be/ra220-weerstand-1-4w-220-ohm-koolstoffilmlaag.html
-BAT1,CR2032,1,3V Coin Cell Battery,,,https://www.gotron.be/gp-lithium-button-cell-3v-210mah-20-0-x-3-2mm-cr2032.html
-PCB,,1,Yellow PCB - JLCPCB,,https://cart.jlcpcb.com/shopcart/cart,
+# Mimikyu PCB — Bill of Materials
+
+All prices in EUR. Shipping excluded.
+
+## Components
+
+| Ref | Component | Specification | Qty | Unit price | Total | Supplier |
+|---|---|---|---:|---:|---:|---|
+| BT1 | Battery holder | Velleman BH-001, CR2032 | 1 | €1.95 | €1.95 | [Cotubex](https://www.cotubex.be/en/porte-piles-et-contacts/2959-battery-holder-for-lithium-cell-o-19mm-cr2032-5410329223960.html) |
+| D1-D2 | Yellow LEDs | 5 mm, through-hole | 2 | €0.12 | €0.24 | Gotron Gent |
+| R1-R2 | Resistors | 220 Ω, ¼ W | 2 | €0.15 | €0.30 | Gotron Gent |
+| BAT1 | Battery | CR2032, 3 V | 1 | €2.10 | €2.10 | Gotron Gent |
+| PCB | Printed circuit board | Yellow, 2-layer FR-4, 1.6 mm | 1 | €18.98 | €18.98 | [JLCPCB](https://cart.jlcpcb.com/shopcart/cart) | //shipping costs included
+
+## Price summary
+
+| Category | Price |
+|---|---:|
+| Components | €4.68 |
+| PCB | €18.98 |
+| **TOTAL** | **€23. 66** |
+
+*Shipping costs are excluded.*
+
+##shipping costs:
+| PCB | Printed circuit board | Yellow, 2-layer FR-4, 1.6 mm | 1 | €18.98 | €18.98 | [JLCPCB](https://cart.jlcpcb.com/shopcart/cart) | // already included
+| BT1 | Battery holder | Velleman BH-001, CR2032 | 1 | €1.95 | €1.95 | [Cotubex](https://www.cotubex.be/en/porte-piles-et-contacts/2959-battery-holder-for-lithium-cell-o-19mm-cr2032-5410329223960.html) |
+// shipping cost: 6.99  ,,,, i'll need to buy something extra too cus i need to reach 8 euros but i'll cover that
+## PCB specifications
+
+- Colour: Yellow
+- Layers: 2
+- Material: FR-4
+- Thickness: 1.6 mm
+- Copper: 1 oz
+- Silkscreen: Black
+- Surface finish: Lead-free HASL
+
+## Suppliers
+
+- [Cotubex](https://www.cotubex.be/en/)
+- [Gotron](https://www.gotron.be/)
+- [JLCPCB](https://jlcpcb.com/)
