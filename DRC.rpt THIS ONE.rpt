@@ -1,0 +1,82 @@
+** Drc report for my first pcb board.kicad_pcb **
+** Created on 2026-11-18T21:23:02 **
+** Report includes: Errors, Warnings **
+
+** Found 16 DRC violations **
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(132.0000 mm, 126.0000 mm): PCB text 'Mimikyu' on F.Silkscreen
+    @(132.0000 mm, 126.0000 mm): PCB text 'Mimikyu' on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(131.8700 mm, 95.1550 mm): Segment of D1 on F.Silkscreen
+    @(136.5300 mm, 94.2140 mm): Polygon of G*** on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(134.4300 mm, 96.7000 mm): Arc of D1 on F.Silkscreen
+    @(136.5300 mm, 94.2140 mm): Polygon of G*** on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(134.4300 mm, 96.7000 mm): Circle of D1 on F.Silkscreen
+    @(136.5300 mm, 94.2140 mm): Polygon of G*** on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(134.4300 mm, 96.7000 mm): Arc of D1 on F.Silkscreen
+    @(136.5300 mm, 94.2140 mm): Polygon of G*** on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(113.3975 mm, 88.2275 mm): Segment of D2 on F.Silkscreen
+    @(119.9215 mm, 87.3179 mm): Polygon of G*** on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(119.9215 mm, 87.3179 mm): Polygon of G*** on F.Silkscreen
+    @(115.9575 mm, 89.7725 mm): Arc of D2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(119.9215 mm, 87.3179 mm): Polygon of G*** on F.Silkscreen
+    @(115.9575 mm, 89.7725 mm): Arc of D2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(115.9575 mm, 89.7725 mm): Circle of D2 on F.Silkscreen
+    @(119.9215 mm, 87.3179 mm): Polygon of G*** on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(121.8784 mm, 127.3377 mm): Polygon of G*** on F.Silkscreen
+    @(120.8700 mm, 128.2300 mm): Segment of R1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(121.8784 mm, 127.3377 mm): Polygon of G*** on F.Silkscreen
+    @(120.8700 mm, 134.7700 mm): Segment of R1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(136.5300 mm, 94.2140 mm): Polygon of G*** on F.Silkscreen
+    @(133.1600 mm, 96.7000 mm): PTH pad 1 [Net-(D1-K)] of D1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(136.5300 mm, 94.2140 mm): Polygon of G*** on F.Silkscreen
+    @(135.7000 mm, 96.7000 mm): PTH pad 2 [Net-(BT1-+)] of D1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.9215 mm, 87.3179 mm): Polygon of G*** on F.Silkscreen
+    @(114.6875 mm, 89.7725 mm): PTH pad 1 [Net-(D2-K)] of D2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.9215 mm, 87.3179 mm): Polygon of G*** on F.Silkscreen
+    @(117.2275 mm, 89.7725 mm): PTH pad 2 [Net-(BT1-+)] of D2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(126.0486 mm, 107.3361 mm): Reference field of BT1
+    @(122.5000 mm, 109.0000 mm): Pad 2 [Net-(BT1--)] of BT1 on B.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
